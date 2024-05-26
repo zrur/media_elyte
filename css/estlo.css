@@ -2,13 +2,15 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 50px;
-    background-image: url(https://www.colegioelyte.com.br/assets/images/logos/logo_elyte.png);
 }
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: auto;
     border: 1px solid #1013b8;
-    background-color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    max-width: max-content;
+    margin-bottom: 2%;
+    border-radius: 2vh;
 }
 
 #container {
@@ -21,10 +23,13 @@ h1 {
 }
 label {
     color: #ffffff;
-    font-family: "Courier New", Courier, monospace;
+    font-size: 111%;
+    font-weight: bolder;
+    display: flex;
+    margin-bottom: 2%;
 }
 input {
-    width: 100%;
+    width: 40%;
     margin-bottom: 10px;
 }
 
